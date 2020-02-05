@@ -24,23 +24,21 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+    <div class="bg-purple-800 p-6">
+      <div class="bg-white flex flex-col font-sans">
+        <div class="container mx-auto px-8">
+          <Header siteTitle={data.site.siteMetadata.title} />
+          <div>
+            <main>{children}</main>
+            <footer className="mt-8 py-8 border-t">
+              © {new Date().getFullYear()}, Built with
+              {` `}
+              <a href="https://www.gatsbyjs.org">Gatsby</a>
+            </footer>
+          </div>
+        </div>
       </div>
-    </>
+    </div>
   )
 }
 
