@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
           <div>
             <main>{children}</main>
             <footer className="mt-8 py-8 border-t">
-              © {new Date().getFullYear()}, Built with
+              © {new Date().getFullYear()} Michael Bonner, Built with
               {` `}
               <a href="https://www.gatsbyjs.org">Gatsby</a>
             </footer>

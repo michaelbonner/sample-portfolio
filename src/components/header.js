@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
         href="#"
         class="bg-purple-200 hover:bg-purple-300 rounded-full uppercase text-purple-700 py-3 px-6"
       >
-        Get in touch
+        Contact Me
       </a>
     </nav>
     <button class="flex md:hidden flex-col absolute top-0 right-0 p-4 mt-5">
