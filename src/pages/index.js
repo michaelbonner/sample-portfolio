@@ -46,12 +46,6 @@ const IndexPage = () => (
         <p className="text-gray-600 leading-relaxed mb-12">
           I'm a passionate web developer in Salt Lake using JAM technologies.
         </p>
-        <a
-          href="#"
-          className="bg-purple-300 hover:bg-purple-400 py-3 px-6 uppercase text-lg font-bold text-white rounded-full"
-        >
-          Learn more
-        </a>
       </div>
       <div className="mb-16 sm:mb-0 mt-8 sm:mt-0 sm:w-3/5 sm:pl-12">
         <svg
