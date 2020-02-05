@@ -14,9 +14,7 @@ const Card = () => {
         />
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-          <p className="text-gray-700 text-base">
-            I'm a passionate web developer in Salt Lake using JAM technologies.
-          </p>
+          <p className="text-gray-700 text-base">Beautiful sunset is nice.</p>
         </div>
         <div className="px-6 py-4">
           <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
@@ -46,9 +44,7 @@ const IndexPage = () => (
           Bonner
         </h2>
         <p className="text-gray-600 leading-relaxed mb-12">
-          Lorem ipsum dolor sit amet, consectetur adipiscing. Vestibulum rutrum
-          metus at enim congue scelerisque. Sed suscipit metu non iaculis semper
-          consectetur adipiscing elit.
+          I'm a passionate web developer in Salt Lake using JAM technologies.
         </p>
         <a
           href="#"
